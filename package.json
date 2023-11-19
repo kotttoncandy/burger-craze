@@ -1,0 +1,15 @@
+{
+  "name": "escape-the-room",
+  "version": "1.0.0",
+  "description": "escape the room",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'esbuild index.js --bundle > bundle.js' --ignore 'bundle.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kaboom": "^3000.0.0-beta.6",
+    "matter-js": "^0.19.0"
+  }
+}
